@@ -10,6 +10,7 @@
     <sprite>sprites\Sprite_Owl</sprite>
     <sprite>sprites\Sprite_Chicken</sprite>
     <sprite>sprites\Sprite_Level_Exit</sprite>
+    <sprite>sprites\Sprite_Baddie</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Background_Black</background>
@@ -20,11 +21,13 @@
     <object>objects\Wall_Black</object>
     <object>objects\Object_Owl</object>
     <object>objects\Object_Chicken</object>
+    <object>objects\Object_Baddie</object>
     <object>objects\Object_Level_Exit</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Room_Start</room>
     <room>rooms\room1</room>
+    <room>rooms\room2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
