@@ -215,7 +215,7 @@
     <instance objName="Wall_Black" x="928" y="0" name="inst_EA777DB1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall_Black" x="928" y="32" name="inst_9437C3B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall_Black" x="928" y="64" name="inst_148DA7E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Object_Chicken" x="32" y="416" name="inst_9BF41BB1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Object_Chicken" x="64" y="416" name="inst_9BF41BB1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
