@@ -5,7 +5,7 @@ var xx,yy,c1,c2;
 // Apply gravity (and jumping)
 y = y+grav;
 grav+=0.4;
-if( grav>=10 ) grav=10;
+if( grav>=15 ) grav=10;
 
 // If falling, check UNDER the player
 if( grav<0 )
