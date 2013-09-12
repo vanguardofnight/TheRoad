@@ -38,6 +38,7 @@ else{
     }else{
         grav=0;
         jump=true;
+        double_jump = false;
     }
     c2 = -1;
     c1 = GetCollision(x,y+32);
@@ -48,6 +49,7 @@ else{
     {
         y = (y&$ffffffe0);
         jump=0;
+        double_jump=0;
         
         if( dir=1){
             sprite_index = Sprite_Chicken_Right;

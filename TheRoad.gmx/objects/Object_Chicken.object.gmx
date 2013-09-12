@@ -107,9 +107,21 @@
           <argument>
             <kind>1</kind>
             <string>/// Do payer "jump"
-if( jump ) exit;
-grav=-8;
-jump=true;
+if( jump &amp;&amp; double_jump) 
+    exit;
+else if(jump == false &amp;&amp; double_jump = false)
+{
+    grav=-8;
+    jump=true;
+}
+else if(jump &amp;&amp; double_jump == false)
+{
+    grav=-8;
+    double_jump=true;
+}
+
+
+
 
 
 </string>
