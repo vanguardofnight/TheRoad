@@ -7,6 +7,7 @@ image_speed = 0.5;
 xspeed = 7;
 grav=5;
 jump=false;
+double_jump=false;
 dir=0;
 
 
